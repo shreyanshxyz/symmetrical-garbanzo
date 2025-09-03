@@ -9,6 +9,9 @@ import {
 } from "lucide-react";
 import earnedImage from "@/assets/earned_3.jpg";
 import VerticalFeed from "./VerticalFeed";
+import btsVideo1 from "@/assets/bts/optimized/1.mp4";
+import btsVideo2 from "@/assets/bts/optimized/2.mp4";
+import btsVideo3 from "@/assets/bts/optimized/3.mp4";
 
 const OutcomesSection = () => {
   const outcomes = [
@@ -46,7 +49,7 @@ const OutcomesSection = () => {
       achievement: "Professional Training",
       quote:
         "Here’s a glimpse of how my students turn passion into profession — September batch, it’s your turn! 💄",
-      src: "/src/assets/bts/optimized/1.mp4",
+      src: btsVideo1,
       alt: "Behind the scenes makeup training session",
     },
     {
@@ -56,7 +59,7 @@ const OutcomesSection = () => {
       achievement: "Hands-on Learning",
       quote:
         "Behind the scenes of building future makeup artists — are you joining us this September? 💕",
-      src: "/src/assets/bts/optimized/2.mp4",
+      src: btsVideo2,
       alt: "Students practicing makeup techniques",
     },
     {
@@ -66,7 +69,7 @@ const OutcomesSection = () => {
       achievement: "Entrepreneur Training",
       quote:
         "The energy, the fun, the artistry — this is what my academy is all about 💄",
-      src: "/src/assets/bts/optimized/3.mp4",
+      src: btsVideo3,
       alt: "Business strategy and entrepreneurship training",
     },
   ];
