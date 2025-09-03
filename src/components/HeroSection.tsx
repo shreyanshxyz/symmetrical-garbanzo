@@ -18,7 +18,7 @@ const HeroSection = () => {
         <img
           src={heroBackground}
           alt="Professional makeup class in session"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[20%_40%] md:object-[50%_35%] lg:object-[50%_30%] xl:object-[50%_25%]"
         />
         <div className="video-overlay"></div>
       </div>
