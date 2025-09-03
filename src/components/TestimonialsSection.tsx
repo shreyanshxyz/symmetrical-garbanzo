@@ -13,7 +13,7 @@ const TestimonialsSection = () => {
         "I can proudly say that I am a pro, and I am a learner from Arushi Tailang ✨🫶🏼",
       rating: 5,
       image: "👩‍🦰",
-      src: "/src/assets/testimonials/optimized/1_1.mp4",
+      src: "/src/assets/testimonials/optimized/1.mp4",
       alt: "Swati Testimonial",
     },
     {
