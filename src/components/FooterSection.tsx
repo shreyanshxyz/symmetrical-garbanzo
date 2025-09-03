@@ -173,7 +173,7 @@ const FooterSection = () => {
               </p>
               <Button
                 onClick={openWhatsApp}
-                className="btn-gold text-xl px-12 py-6 animate-pulse hover:animate-none w-full md:w-auto md:text-base md:px-8 md:py-4"
+                className="btn-gold text-lg md:text-xl px-6 md:px-10 py-4 md:py-6 animate-pulse hover:animate-none w-full md:w-auto"
               >
                 <MessageCircle className="mr-3 h-6 w-6" />
                 Book Your Seat - ₹50,000 Only

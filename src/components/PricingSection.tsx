@@ -83,7 +83,7 @@ const PricingSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-4 gap-4 max-w-md mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-md mx-auto">
             {Object.entries(timeLeft).map(([unit, value]) => (
               <div
                 key={unit}
@@ -101,7 +101,7 @@ const PricingSection = () => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Regular Price */}
           <div className="card-elegant p-8 relative">
             <div className="text-center mb-6">

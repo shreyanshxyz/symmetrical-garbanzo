@@ -42,30 +42,30 @@ const OutcomesSection = () => {
     {
       id: "bts-1",
       name: "Live Makeup Session",
-      location: "Course Studio",
+      location: "Arushi Makeup Studio & Academy",
       achievement: "Professional Training",
       quote:
-        "Watch our expert instructors demonstrate advanced makeup techniques used in professional bridal sessions.",
+        "Here’s a glimpse of how my students turn passion into profession — September batch, it’s your turn! 💄",
       src: "/src/assets/bts/optimized/1.mp4",
       alt: "Behind the scenes makeup training session",
     },
     {
       id: "bts-2",
       name: "Student Practice",
-      location: "Training Lab",
+      location: "Arushi Makeup Studio & Academy",
       achievement: "Hands-on Learning",
       quote:
-        "See our students practicing on real clients under expert supervision during intensive training.",
+        "Behind the scenes of building future makeup artists — are you joining us this September? 💕",
       src: "/src/assets/bts/optimized/2.mp4",
       alt: "Students practicing makeup techniques",
     },
     {
       id: "bts-3",
       name: "Business Workshop",
-      location: "Strategy Session",
+      location: "Arushi Makeup Studio & Academy",
       achievement: "Entrepreneur Training",
       quote:
-        "Learn how we transform housewives into successful business owners through comprehensive business training.",
+        "The energy, the fun, the artistry — this is what my academy is all about 💄",
       src: "/src/assets/bts/optimized/3.mp4",
       alt: "Business strategy and entrepreneurship training",
     },
@@ -119,10 +119,11 @@ const OutcomesSection = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent rounded-2xl"></div>
             <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 lg:bottom-8 lg:left-8 lg:right-8 text-white">
               <div className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">
-                "I earned ₹45,000 in my first month!"
+                "I can proudly say that I am a pro, and I am a learner from
+                Arushi Tailang ✨🫶🏼"
               </div>
               <div className="text-sm sm:text-base lg:text-lg opacity-90">
-                - Priya Sharma, Course Graduate
+                - Swati, Course Graduate
               </div>
             </div>
           </div>
@@ -172,9 +173,8 @@ const OutcomesSection = () => {
               of Your Success
             </h3>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Experience the intensive training environment where housewives
-              transform into professional makeup artists and successful
-              entrepreneurs.
+              From brushes to bold dreams, this is what our academy looks like
+              in action 🎥💋
             </p>
           </div>
 

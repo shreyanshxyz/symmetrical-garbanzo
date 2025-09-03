@@ -6,51 +6,50 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: "1",
-      name: "Priya Sharma",
-      location: "Mumbai",
-      achievement: "Booked 3 brides in her first month",
+      name: "Swati",
+      location: "Jaipur",
+      achievement: "",
       quote:
-        "I was completely dependent on my family. Now I earn more than my husband! This course changed my life.",
+        "I can proudly say that I am a pro, and I am a learner from Arushi Tailang ✨🫶🏼",
       rating: 5,
       image: "👩‍🦰",
-      src: "/src/assets/testimonials/optimized/1.mp4",
-      alt: "Priya Sharma Testimonial",
+      src: "/src/assets/testimonials/optimized/1_1.mp4",
+      alt: "Swati Testimonial",
     },
     {
       id: "2",
-      name: "Anjali Gupta",
-      location: "Delhi",
-      achievement: "Quit her job & now earns 80k/month",
-      quote:
-        "The business training was game-changing. I learned not just makeup but how to run a profitable business.",
+      name: "Deepa",
+      location: "Jaipur",
+      achievement: "",
+      quote: "Ma’am ne choti choti cheeze bhi bohot achhe se sikhaya hai 💫🌸",
       rating: 5,
       image: "👩‍🦱",
       src: "/src/assets/testimonials/optimized/2.mp4",
-      alt: "Anjali Gupta Testimonial",
+      alt: "Deepa Testimonial",
     },
     {
       id: "3",
-      name: "Kavya Patel",
-      location: "Ahmedabad",
-      achievement: "Built 6-figure makeup business",
+      name: "Devyani",
+      location: "Jaipur",
+      achievement: "",
       quote:
-        "From housewife to successful entrepreneur in 6 months. The support and training is incredible!",
+        "I enjoyed a lot and it was my best experience. Arushi Di is the best! ✨💫",
       rating: 5,
       image: "👩",
       src: "/src/assets/testimonials/optimized/3.mp4",
-      alt: "Kavya Patel Testimonial",
+      alt: "Devyani Testimonial",
     },
     {
       id: "4",
-      name: "Neha Singh",
+      name: "Isha",
       location: "Jaipur",
-      achievement: "12 brides booked in 2 months",
+      achievement: "",
       quote:
-        "The hands-on practice and real client experience during the course made all the difference.",
+        "Bohot achha makeup sikhaya mujhe. Mera best experience raha. Thankyou mam ❤️🌸",
       rating: 5,
       image: "👩‍🦳",
       src: "/src/assets/testimonials/optimized/4.mp4",
-      alt: "Neha Singh Testimonial",
+      alt: "Isha Testimonial",
     },
   ];
 
@@ -115,7 +114,7 @@ const TestimonialsSection = () => {
           <div className="text-center">
             <Button
               onClick={openWhatsApp}
-              className="btn-gold text-xl px-10 py-6"
+              className="btn-gold text-lg md:text-xl px-6 md:px-10 py-4 md:py-6"
             >
               Watch More Success Stories
             </Button>

@@ -160,7 +160,7 @@ const CourseSection = () => {
             </div>
             <Button
               onClick={openWhatsApp}
-              className="btn-gold text-xl px-10 py-6"
+              className="btn-gold text-lg md:text-xl px-6 md:px-10 py-4 md:py-6"
             >
               <Gift className="mr-3 h-6 w-6" />
               Claim Your Bonuses Now
