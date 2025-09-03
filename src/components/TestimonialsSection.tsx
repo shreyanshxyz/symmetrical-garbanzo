@@ -2,6 +2,12 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import VerticalFeed from "./VerticalFeed";
 
+// Import video files properly for Vite asset handling
+import testimonial1Video from "@/assets/testimonials/optimized/1.mp4";
+import testimonial2Video from "@/assets/testimonials/optimized/2.mp4";
+import testimonial3Video from "@/assets/testimonials/optimized/3.mp4";
+import testimonial4Video from "@/assets/testimonials/optimized/4.mp4";
+
 const TestimonialsSection = () => {
   const testimonials = [
     {
@@ -13,7 +19,7 @@ const TestimonialsSection = () => {
         "I can proudly say that I am a pro, and I am a learner from Arushi Tailang ✨🫶🏼",
       rating: 5,
       image: "👩‍🦰",
-      src: "/src/assets/testimonials/optimized/1.mp4",
+      src: testimonial1Video,
       alt: "Swati Testimonial",
     },
     {
@@ -24,7 +30,7 @@ const TestimonialsSection = () => {
       quote: "Ma’am ne choti choti cheeze bhi bohot achhe se sikhaya hai 💫🌸",
       rating: 5,
       image: "👩‍🦱",
-      src: "/src/assets/testimonials/optimized/2.mp4",
+      src: testimonial2Video,
       alt: "Deepa Testimonial",
     },
     {
@@ -36,7 +42,7 @@ const TestimonialsSection = () => {
         "I enjoyed a lot and it was my best experience. Arushi Di is the best! ✨💫",
       rating: 5,
       image: "👩",
-      src: "/src/assets/testimonials/optimized/3.mp4",
+      src: testimonial3Video,
       alt: "Devyani Testimonial",
     },
     {
@@ -48,7 +54,7 @@ const TestimonialsSection = () => {
         "Bohot achha makeup sikhaya mujhe. Mera best experience raha. Thankyou mam ❤️🌸",
       rating: 5,
       image: "👩‍🦳",
-      src: "/src/assets/testimonials/optimized/4.mp4",
+      src: testimonial4Video,
       alt: "Isha Testimonial",
     },
   ];

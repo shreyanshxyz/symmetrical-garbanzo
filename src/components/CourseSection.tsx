@@ -3,6 +3,7 @@ import { CheckCircle, Gift, Star, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image1 from "@/assets/course/1.jpg";
 import Image2 from "@/assets/course/2.jpg";
+import Image3 from "@/assets/course/3.jpg";
 
 const CourseSection = () => {
   const roadmap = [
@@ -106,7 +107,7 @@ const CourseSection = () => {
         </div>
 
         {/* Course Images */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
+        <div className="grid lg:grid-cols-3 gap-16 items-center mb-20">
           <div>
             <img
               src={Image1}
@@ -118,6 +119,13 @@ const CourseSection = () => {
             <img
               src={Image2}
               alt="Beautiful bridal makeup portfolio showcase"
+              className="w-full h-[400px] object-cover rounded-2xl shadow-elegant"
+            />
+          </div>
+          <div>
+            <img
+              src={Image3}
+              alt="Behind the scenes from one of our classes"
               className="w-full h-[400px] object-cover rounded-2xl shadow-elegant"
             />
           </div>
